@@ -1,0 +1,41 @@
+{
+  "name": "avatar-backend",
+  "version": "1.0.0",
+  "description": "API server for Avatar Application.",
+  "main": "bin/www",
+  "author": "Trần Nhật Duy <duytn.hcm@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "better-npm-run dev"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "nodemon bin/www",
+      "env": {
+        "NODE_ENV": "development",
+        "NODE_PATH": "./src"
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.0.1",
+    "eslint-config-recommended": "^3.0.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "better-npm-run": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "compression": "^1.7.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "morgan": "^1.9.0",
+    "winston": "^3.0.0"
+  }
+}
